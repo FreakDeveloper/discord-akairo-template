@@ -8,7 +8,7 @@ class ReadyEvent extends Listener {
     });
   }
 
-   exec() {
+    exec() {
     console.log(`Logged In As ${this.client.user.tag}`);
   }
 };

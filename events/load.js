@@ -7,7 +7,7 @@ class CommandLoad extends Listener {
     });
   }
 
-   async exec(command, isReload) {
+ async exec(command, isReload) {
   
     console.log(`Command Loaded: ${command.id}\n${this.client.cmdhandler.modules.size - 1} Left!`)
   }

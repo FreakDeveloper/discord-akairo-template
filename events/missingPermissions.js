@@ -8,7 +8,7 @@ class MissingPerms extends Listener {
     });
   }
 
-   async exec(message, command, type, missing) {
+ async exec(message, command, type, missing) {
     let msg
     if (type === "client") msg = "I Dont Have Enough Permissions."
     if (type === "user") msg = "You Dont Have Enough Permissions."

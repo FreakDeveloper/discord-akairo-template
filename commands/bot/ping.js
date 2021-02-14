@@ -8,7 +8,7 @@ class Ping extends Command {
   }
 
   async exec(message) {
-     const embed = new MessageEmbed()
+   const embed = new MessageEmbed()
     .setColor("RED")
     .setTitle("Ping Statistics")
     .setDescription(`API Latency: ${this.client.ws.ping}ms\nResponse Latency: ${Date.now() - message.createdAt}ms`)
